@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+      legend,select,label,input,textarea,button{
+            margin-bottom: 15px;
+            margin-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <section>
+        <form>
+            <fieldset>
+                <legend>Personal Details</legend>
+                <label for="Solution">Salution</label><br>
+                <select name="Salution" >
+                    <option value="None">--None--</option>
+                    <option value="English">English</option>
+                    <option value="Tamil">Tamil</option>
+                    <option value="Hindi">Hindi</option>
+                </select><br>
+                <label for="FName">Fist Name</label>:
+                <input type="text" name="FName"><br>
+                <label for="lName">Last Name</label>:
+                <input type="text" name="lName"><br>
+                <label for="gender">Gender</label>
+                <input type="radio" name="gender" value="Male" >
+                <label for="Male">Male</label>
+                <input type="radio" name="gender" value="Female">
+                <label for="Female">Female</label><br>
+                <label for="dateBirth">Date Of Birth</label>:
+                <input type="date"><br>
+                <label for="address">Address</label><br>
+                <textarea name="address"  cols="30" rows="10"></textarea><br>
+                <button>Sumbit</button>
+            </fieldset>
+        </form>
+    </section>
+</body>
+</html>
